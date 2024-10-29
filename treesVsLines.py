@@ -13,11 +13,10 @@ from sklearn.ensemble import GradientBoostingRegressor
 
 
 
-
+# read in the csv
 data = pd.read_csv("AmesHousing.csv")
 data = data.drop(columns=['Order', 'PID', 'Neighborhood'])
 data = data.fillna(0)
-
 
 
 # get dummies for categoricals ...
