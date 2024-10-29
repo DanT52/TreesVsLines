@@ -28,3 +28,6 @@ forest = RandomForestClassifier( max_depth = 2, n_estimators = 50 );
 dr1 = DecisionTreeRegressor( max_depth = 2 )
 dr1.fit( xs, ys )
 p1 = dr1.predict( xs 
+
+
+use scaling as another pipeline step
