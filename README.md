@@ -1,6 +1,6 @@
 # Trees vs Lines
 
-This project compares the performance of different regression models on the Ames Housing dataset. The models used include:
+This project compares the performance of different regression models on the [Ames Housing dataset](https://www.kaggle.com/datasets/shashanknecrothapa/ames-housing-dataset). The models used include:
 
 - Linear Regression
 - Decision Tree Regressor
